@@ -1,0 +1,101 @@
+body{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    background-color: rgb(240, 233, 243);
+}
+
+.TopPage{
+    width: 100%;
+    margin: 10px;
+    float: left;
+}
+.TopPage_col1{
+    width: 25%;
+    float: left;
+}
+.TopPage_col2{
+    width: 75%;
+    float: left;
+}
+
+.TopPage_Logo{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+    width: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.TopPage_searchBox{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text_to_Center{
+    text-align: center;
+}
+
+.basic_hr{
+    height: 10px;
+    border-width: 0;
+    background-color: rosybrown;
+    width: 100%;
+}
+
+.info_containerA{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+    background-color: lightblue;
+}
+
+.info_containerB{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    background-color: lightblue;
+}
+
+.tab_button_area{
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.tab_button_area button{
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.weather_chart_area{
+    padding-left: 10px;
+    margin-right: 25px;
+    width: 45%;
+    float: left;
+}
+
+.weather_data{
+    width: 35%;
+    padding-left: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    background-color: aliceblue;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+.BottomPage{
+    margin: 10px;
+}

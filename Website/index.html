@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Welcome</title>
+    <link href= "style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body onload="display_init_info()">
+
+    <!--Top of Page-->
+    <div class="TopPage">
+
+        <div class="TopPage_col1">
+            <img src="images/IFT402_WP_Logo_w_txt.png" height="200" alt="Our Logo">
+            <p style="font-size: 20px; font-weight: bold;">A Weather App</p>
+       </div>
+          
+        <!--Search bar for when that feature is available-->
+       <div class="TopPage_col2">
+           <div class="TopPage_searchBox">
+                <p style="font-weight:bold;" class="text_to_Center">Search by ZIP Code:</p>
+                <input type="text" class="text_to_Center" onkeyup="nameSearch()" placeholder="Coming Soon">
+            </div>
+        </div>
+
+    </div>
+
+    <hr class="basic_hr">
+
+    <!--Buttons, Chart, Information Dashboard-->
+        
+    <div class="info_containerA">
+        <p style="font-size: 35px; font-weight: bold; text-align: center;">Dashboard</p>
+        <p style="color: red; font-weight: bold; text-align: center;">As of 4/24/2022, we will not be updating the website as the Final Deck has been submitted. Thank you for using our service.</p>
+        <div class="tab_button_area">
+            <span style="margin-right: 10px;"><button onclick="display_atl_info()">Atlanta</button></span>
+            <span style="margin-right: 10px;"><button onclick="display_col_info()">Columbia</button></span>
+            <span><button onclick="display_chr_info()">Charlotte</button></span>
+        </div>
+        <div class="weather_chart_area">
+            <span id="weather_chart"></span>
+        </div>
+        <div class="weather_data">
+            <p>Predicted Temperature</p>
+            <p>Next Day: <span id="display_temp1"></span></p>
+            <p>2nd Day: <span id="display_temp2"></span></p>
+            <p>3rd Day: <span id="display_temp3"></span></p>
+        </div>
+        <div class="weather_data" style="margin-top: 20px;">
+            <p>WEATHER WARNING</p>
+            <p><span id="display_emergency">None</span></p>
+        </div>
+    </div>
+
+    <!--Past 2 Weeks Data-->
+    <div class="info_containerB">
+        <p style="font-size: 20px; text-align: center; font-weight: bold;">DATA OF PAST 2 WEEKS</p>
+        <div class="text_to_Center">
+            <span id="past_data"></span>
+        </div>
+    </div>
+
+    <!--Bottom of Page-->
+    <hr class="basic_hr">
+    <div class="BottomPage">
+        <p style="text-align: center;">Garcia, Goding, Vang, Schumm  |  2022</p>
+    </div>
+    
+
+<!--Javascript Goes Here-->
+<script src="jstyle.js"></script>
+
+</body>
+</html>
