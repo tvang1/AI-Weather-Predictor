@@ -15,9 +15,9 @@ from sklearn.model_selection import cross_validate
 # Choose correct file path for evaluating model.
 # #
 
-#df = pd.read_csv(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\atlanta_data_02.csv")
-#df = pd.read_csv(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\columbia_data_02.csv")
-df = pd.read_csv(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\charlotte_data_02.csv")
+df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv")
+#df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv")
+#df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv")
 
 df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=True)
 
@@ -33,9 +33,9 @@ df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=True)
 # 
 # columns=['date','pattern','temperature','pressure','wind_speed','wind_degree']
 # #
-features_df = pd.get_dummies(df, columns=['date','pattern','temperature','pressure','wind_speed'])
+features_df = pd.get_dummies(df, columns=['date','pattern','wind_degree','pressure','wind_speed'])
 X = np.array(features_df)
-y = np.array(df['wind_degree'])
+y = np.array(df['temperature'])
 
 # Split data into test/train set (70/30 split) and shuffle
 # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
@@ -62,31 +62,31 @@ model.fit(X_train, y_train)
 
 # Setting X values for predictions to the y
 # #
-#x_train_tofile = model.predict(X_train)
-#x_test_tofile = model.predict(X_test)
+x_train_tofile = model.predict(X_train)
+x_test_tofile = model.predict(X_test)
 
 # Check model accuracy (up to two decimal places)
-#a_mse = mean_absolute_error(y_train, model.predict(X_train))
-#a_accuracy = 100-a_mse
-#b_mse = mean_absolute_error(y_test, model.predict(X_test))
-#b_accuracy = 100-b_mse
-#print ("Training Set Mean Absolute Error Rate: %.2f" % a_mse)
-#print ("Training Set Mean Absolute Accuracy Rate: %.2f" % a_accuracy )
-#print ("Test Set Mean Absolute Error Rare: %.2f" % b_mse)
-#print ("Test Set Mean Absolute Accuracy Rate: %.2f" % b_accuracy )
+a_mse = mean_absolute_error(y_train, model.predict(X_train))
+a_accuracy = 100-a_mse
+b_mse = mean_absolute_error(y_test, model.predict(X_test))
+b_accuracy = 100-b_mse
+print ("Training Set Mean Absolute Error Rate: %.2f" % a_mse)
+print ("Training Set Mean Absolute Accuracy Rate: %.2f" % a_accuracy )
+print ("Test Set Mean Absolute Error Rare: %.2f" % b_mse)
+print ("Test Set Mean Absolute Accuracy Rate: %.2f" % b_accuracy )
 
 # Validation set
 # 
 # Make sure this set is not overfitting. If not, then
 # the algorithm is successful.
 # #
-#lasso = linear_model.Lasso()
-#df_vpred = cross_val_predict(lasso, X, y, cv=3)
-#df_vresults = cross_validate(lasso, X, y, cv=3)
-#val_accuracy =  df_vresults['test_score'][0]*100
-#val_error = 100-val_accuracy
-#print ("Validation Error Rate: %.2f" % val_error)
-#print ("Validation Accuracy Rate: %.2f" % val_accuracy)
+lasso = linear_model.Lasso()
+df_vpred = cross_val_predict(lasso, X, y, cv=3)
+df_vresults = cross_validate(lasso, X, y, cv=3)
+val_accuracy =  df_vresults['test_score'][0]*100
+val_error = 100-val_accuracy
+print ("Validation Error Rate: %.2f" % val_error)
+print ("Validation Accuracy Rate: %.2f" % val_accuracy)
 
 # Prediction Model
 # 

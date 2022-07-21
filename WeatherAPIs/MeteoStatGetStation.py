@@ -20,7 +20,7 @@ headers = {
 # Upon results, copy and paste desired 'id' tuple to the 'MeteoStaions.txt'
 # #
 
-conn.request("GET", "/stations/nearby?lat=33.836082&lon=-81.163727", headers=headers)
+conn.request("GET", "/stations/nearby?lat=39.742043&lon=-104.991531", headers=headers)
 
 res = conn.getresponse()
 data = res.read()

@@ -3,3 +3,9 @@
 {"id": "72310", "name": {"en": "Columbia Metropolitan Airport"}, "lat": "34.007", "lon": "-81.0348", "county": "Richmond"}
 
 {"id": "72314", "name": {"en": "Charlotte/Douglas International Airport"}, "lat": "33.2271", "lon": "-80.8431", "county": "Mecklenburg"}
+
+{"id": "KBKF0", "name": {"en": "Castle Rock"}, "lat": "39.374912", "lon": "-104.853859", "county": "Douglas"}
+
+{"id": "72565", "name": {"en": "Denver"}, "lat": "39.742043", "lon": "-104.991531", "county": "Arapahoe"}
+
+{"id": "KBDU0", "name": {"en": "Boulder / Valmont"}

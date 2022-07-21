@@ -32,19 +32,18 @@ def get_open_weather(api,date,city,state):
     lines_to_file = ( str(date)+","+str(a_dict['main']['temp'])+","+str(a_dict['main']['pressure'])+","+str(a_dict['weather'][0]['description'])+","+str(a_dict['wind']['speed'])+","+str(a_dict['wind']['deg']) )
 
     try: 
-        if (city=="charlotte" and state=="northcarolina"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\charlotte_data_02.csv","a+") as file1:
+        if (city=="castlerock" and state=="colorado"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
-        elif (city=="atlanta" and state=="georgia"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\atlanta_data_02.csv","a+") as file1:
+        elif (city=="denver" and state=="colorado"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
-
-        elif (city=="columbia" and state=="southcarolina"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\columbia_data_02.csv","a+") as file1:
+        elif (city=="boulder" and state=="colorado"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
@@ -71,25 +70,25 @@ def get_weather_api(api, date, zip):
     lines_to_file = ( str(date)+","+str(a_dict['current']['temp_f'])+","+str(a_dict['current']['pressure_mb'])+","+str(a_dict['current']['condition']['text'])+","+str(a_dict['current']['wind_mph'])+","+str(a_dict['current']['wind_degree']) )
 
     try: 
-        if (zip=="28208"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\charlotte_data_02.csv","a+") as file1:
+        if (zip=="80108"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
-        elif (zip=="30320"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\atlanta_data_02.csv","a+") as file1:
-                file1.write(str(lines_to_file)+"\n")
+        elif (zip=="80249"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
+              file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
-        elif (zip=="29170"):
-            with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\columbia_data_02.csv","a+") as file1:
-                file1.write(str(lines_to_file)+"\n")
+        elif (zip=="80304"):
+            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
+              file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
     except:
         print ("An error log was saved to the API Outputs directory.")
-        with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
-            file1.write(sys.sys.exc_info())
+        with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
+           file1.write(sys.sys.exc_info())
     
 # Driver
 # #
@@ -97,18 +96,19 @@ def get_weather_api(api, date, zip):
 # Please alter the "date" for data to be accurate.
 # #
 
-date = "2022-04-24"
+date = "2022-07-21"
 
 open_weather_api = "8c239ac62ba042b490fb460648e3c15b"
 
 weather_api = "a0c11aef091643ba8a1180136222001"
-atl_zip = "30320"
-chrtte_zip = "28208"
-colum_zip = "29170"
 
-get_open_weather(open_weather_api,date,"charlotte","northcarolina")
-get_open_weather(open_weather_api,date,"atlanta","georgia")
-get_open_weather(open_weather_api,date,"columbia","southcarolina")
-get_weather_api(weather_api,date,atl_zip)
-get_weather_api(weather_api,date,chrtte_zip)
-get_weather_api(weather_api,date,colum_zip)
+cr_zip = "80108"
+denver_zip = "80249"
+boulder_zip = "80304"
+
+get_open_weather(open_weather_api,date,"castlerock","colorado")
+get_open_weather(open_weather_api,date,"denver","colorado")
+get_open_weather(open_weather_api,date,"boulder","colorado")
+get_weather_api(weather_api,date,cr_zip)
+get_weather_api(weather_api,date,denver_zip)
+get_weather_api(weather_api,date,boulder_zip)
