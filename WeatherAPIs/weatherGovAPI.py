@@ -51,7 +51,7 @@ print ( "Link to forecasts: "+"\n"+str(a_dict1['properties']['forecast']) )
 # to the weather_gov_formated.json to be viewed correctly.
 # #
 lines_to_file += str(a_dict2)
-with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\weather_gov.json","w+") as file1:
+with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\weather_gov.json","w+") as file1:
     file1.write(str(lines_to_file)+"\n")
     print ("\nAdded to file successfully.") 
     print ("Use a Json formatter to propperly format file for appropriate\nviewing emergency events.\nGo to \"https://jsonformatter.curiousconcept.com/\" to paste file contents there.\n")

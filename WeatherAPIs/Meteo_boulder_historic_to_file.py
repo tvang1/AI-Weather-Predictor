@@ -46,5 +46,5 @@ for i in range (num_of_lines):
 
 #print ("date,temperature,pressure,pattern,wind_speed,wind_degree")
 
-with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
+with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
   file1.write(str(lines_to_file))

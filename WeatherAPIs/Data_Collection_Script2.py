@@ -33,23 +33,23 @@ def get_open_weather(api,date,city,state):
 
     try: 
         if (city=="castlerock" and state=="colorado"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
         elif (city=="denver" and state=="colorado"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
         elif (city=="boulder" and state=="colorado"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
     except:
         print ("An error log was saved to the API Outputs directory.")
-        with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
+        with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
             file1.write(sys.sys.exc_info())
 
 # WeatherAPI stores the results to 'a_dict' in JSon format
@@ -71,23 +71,23 @@ def get_weather_api(api, date, zip):
 
     try: 
         if (zip=="80108"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
         elif (zip=="80249"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv","a+") as file1:
               file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
         elif (zip=="80304"):
-            with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
+            with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv","a+") as file1:
               file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
     except:
         print ("An error log was saved to the API Outputs directory.")
-        with open(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
+        with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\error_log.csv","w+") as file1:
            file1.write(sys.sys.exc_info())
     
 # Driver

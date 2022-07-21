@@ -15,9 +15,9 @@ from sklearn.model_selection import cross_validate
 # Choose correct file path for evaluating model.
 # #
 
-df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv")
-#df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv")
-#df = pd.read_csv(r"D:\GitDepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv")
+df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv")
+#df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv")
+#df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv")
 
 df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=True)
 
@@ -131,19 +131,19 @@ for i in range (3):
 #for i in range (len(y_train)):
  #   a_lines_to_file += str(y_train[i])+","+str(x_train_tofile[i])+"\n"
 
-#with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\y_train_out.csv","a+") as file1:
+#with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\y_train_out.csv","a+") as file1:
  #   file1.write(str(a_lines_to_file))
 
 # Exporting Test Set Preddictions
 #for i in range (len(y_test)):
  #   b_lines_to_file += str(y_test[i])+","+str(x_test_tofile[i])+"\n"
 
-#with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\y_test_out.csv","a+") as file2:
+#with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\y_test_out.csv","a+") as file2:
 #   file2.write(str(b_lines_to_file))
 
 # Exporting Predictions. Change range head length.
 #for i in range (3):
 #   a_lines_to_file += str(p[i])+","+str(y_train[i])+"\n"
 
-#with open(r"D:\College\IFT 401 and 402\ASU-CapWeather\WeatherAPIs\API Outputs\predict_col.csv","a+") as file1:
+#with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\predict_col.csv","a+") as file1:
 #  file1.write(str(a_lines_to_file))
