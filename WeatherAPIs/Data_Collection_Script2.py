@@ -96,7 +96,7 @@ def get_weather_api(api, date, zip):
 # Please alter the "date" for data to be accurate.
 # #
 
-date = "2022-07-21"
+date = "2022-07-22"
 
 open_weather_api = "8c239ac62ba042b490fb460648e3c15b"
 
