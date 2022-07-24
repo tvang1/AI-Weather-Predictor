@@ -6,4 +6,9 @@ To Do:
 	- Make a new file and import data with new column 'id'.
 - Fix SQL Tables to include new column 'Id'.
 - Install LibreOffice for all SSH hosts to fix .csv(s) files.
-- Enable SSH services automattically via script to WSL. 
+
+- Enable SSH services automattically via script to WSL.
+
+- Work on Documentation
+	- See if Using Git Website is better or make a folder.
+	  consider doing both. 
