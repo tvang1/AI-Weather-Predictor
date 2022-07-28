@@ -1,5 +1,6 @@
 #!\bin\bash
-import urllib.request, json, sys
+import urllib.request, json, sys, datetime
+from datetime import *
 
 # Functions
 # 
@@ -90,13 +91,19 @@ def get_weather_api(api, date, zip):
         with open(r"/mnt/d/GitRepositories/Simple-Weather-Predictor/WeatherAPIs/API Outputs/error_log.csv","w+") as file1:
            file1.write(sys.sys.exc_info())
     
+# Get the date for better autmation.
+# #
+def get_date():
+    today = str(date.today())
+    return today
+
 # Driver
 # #
 
 # Please alter the "date" for data to be accurate.
 # #
 
-date = "2022-07-26"
+a_date = get_date()
 
 open_weather_api = "8c239ac62ba042b490fb460648e3c15b"
 
@@ -106,9 +113,9 @@ cr_zip = "80108"
 denver_zip = "80249"
 boulder_zip = "80304"
 
-get_open_weather(open_weather_api,date,"castlerock","colorado")
-get_open_weather(open_weather_api,date,"denver","colorado")
-get_open_weather(open_weather_api,date,"boulder","colorado")
-get_weather_api(weather_api,date,cr_zip)
-get_weather_api(weather_api,date,denver_zip)
-get_weather_api(weather_api,date,boulder_zip)
+get_open_weather(open_weather_api,a_date,"castlerock","colorado")
+get_open_weather(open_weather_api,a_date,"denver","colorado")
+get_open_weather(open_weather_api,a_date,"boulder","colorado")
+get_weather_api(weather_api,a_date,cr_zip)
+get_weather_api(weather_api,a_date,denver_zip)
+get_weather_api(weather_api,a_date,boulder_zip)
