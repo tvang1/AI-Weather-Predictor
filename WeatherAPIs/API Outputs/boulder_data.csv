@@ -2773,3 +2773,5 @@ date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-07-27,71.6,1021.0,Sunny,8.1,360
 2022-07-28,61.27,1024,overcast clouds,5.75,160
 2022-07-28,66.2,1026.0,Overcast,2.2,10
+2022-07-29,59.38,1023,broken clouds,3.44,360
+2022-07-29,64.4,1024.0,Partly cloudy,3.8,360
