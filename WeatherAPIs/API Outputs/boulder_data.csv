@@ -2779,3 +2779,5 @@ date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-07-30,77.0,1022.0,Sunny,4.3,80
 2022-07-31,75.29,1021,clear sky,5.75,100
 2022-07-31,80.6,1023.0,Sunny,3.8,70
+2022-08-01,75.92,1021,clear sky,3.44,200
+2022-08-01,78.8,1022.0,Sunny,2.2,10
