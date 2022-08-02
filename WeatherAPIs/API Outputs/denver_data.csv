@@ -2781,3 +2781,5 @@ date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-07-31,80.1,1023.0,Partly cloudy,3.8,250
 2022-08-01,82.8,1015,broken clouds,1.01,104
 2022-08-01,79.0,1022.0,Partly cloudy,10.5,240
+2022-08-02,86.99,1010,few clouds,1.99,28
+2022-08-02,86.0,1018.0,Partly cloudy,9.4,20
