@@ -113,6 +113,7 @@ cr_zip = "80108"
 denver_zip = "80249"
 boulder_zip = "80304"
 
+print ("Today is \""+a_date+"\".")
 get_open_weather(open_weather_api,a_date,"castlerock","colorado")
 get_open_weather(open_weather_api,a_date,"denver","colorado")
 get_open_weather(open_weather_api,a_date,"boulder","colorado")
