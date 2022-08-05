@@ -100,9 +100,6 @@ def get_date():
 # Driver
 # #
 
-# Please alter the "date" for data to be accurate.
-# #
-
 a_date = get_date()
 
 open_weather_api = "8c239ac62ba042b490fb460648e3c15b"
