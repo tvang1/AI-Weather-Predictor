@@ -2791,3 +2791,5 @@ date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-08-05,89.6,1018.0,Sunny,4.3,140
 2022-08-06,75.74,1018,clear sky,4.61,60
 2022-08-06,80.6,1021.0,Sunny,4.3,60
+2022-08-07,74.95,1022,clear sky,8.05,100
+2022-08-07,80.6,1024.0,Sunny,5.6,70
