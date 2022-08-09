@@ -15,7 +15,9 @@ from sklearn.model_selection import cross_validate
 # Choose correct file path for evaluating model.
 # #
 
-df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv")
+df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data-copy.csv")
+
+#df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv")
 #df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\denver_data.csv")
 #df = pd.read_csv(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\boulder_data.csv")
 
