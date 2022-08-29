@@ -24,7 +24,7 @@ headers = {
 
 # Be sure to change the dates for correct historical data.
 
-conn.request("GET", "/stations/daily?station=72565&start=2015-01-01&end=2022-07-20", headers=headers)
+conn.request("GET", "/stations/daily?station=72565&start=2022-08-15&end=2022-08-27", headers=headers)
 
 res = conn.getresponse()
 a_json = res.read().decode()

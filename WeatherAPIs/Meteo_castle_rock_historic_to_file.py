@@ -24,7 +24,7 @@ headers = {
 
 # Be sure to change the dates for correct historical data.
 
-conn.request("GET", "/stations/daily?station=KBKF0&start=2022-07-21&end=2022-08-08", headers=headers)
+conn.request("GET", "/stations/daily?station=KBKF0&start=2022-08-15&end=2022-08-27", headers=headers)
 
 res = conn.getresponse()
 a_json = res.read().decode()
@@ -49,5 +49,5 @@ for i in range (num_of_lines):
 #with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
   #file1.write(str(lines_to_file))
 
-with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\missing_data.csv","a+") as file1:
+with open(r"D:\GitRepositories\Simple-Weather-Predictor\WeatherAPIs\API Outputs\castle_rock_data.csv","a+") as file1:
   file1.write(str(lines_to_file))
