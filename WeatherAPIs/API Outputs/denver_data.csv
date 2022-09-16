@@ -2856,3 +2856,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-09-14,66.92,1011.0,None,16.9,238.0
 2856,2022-09-15,67.78,1016,few clouds,1.99,30
 2857,2022-09-15,64.9,1019.0,Partly cloudy,4.3,220
+2858,2022-09-16,70,1014,clear sky,3,163
+2859,2022-09-16,68.0,1019.0,Partly cloudy,9.4,230

@@ -2849,3 +2849,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2022-09-14,66.38,1010.4,None,7.7,227.0
 2849,2022-09-15,60.3,1020,overcast clouds,7,191
 2850,2022-09-15,64.4,1020.0,Overcast,2.2,10
+2851,2022-09-16,63.28,1019,clear sky,4,110
+2852,2022-09-16,66.2,1018.0,Sunny,2.2,10
