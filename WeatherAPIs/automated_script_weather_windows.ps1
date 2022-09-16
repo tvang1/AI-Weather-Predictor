@@ -1,0 +1,1 @@
+﻿& "C:/Program Files/Python38/python.exe" d:/GitRepositories/Simple-Weather-Predictor/WeatherAPIs/Data_Collection_Windows.py
