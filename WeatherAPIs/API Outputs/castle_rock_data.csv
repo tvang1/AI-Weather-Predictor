@@ -2861,3 +2861,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2860,2022-09-21,54.0,1028.0,Light rain,6.9,50
 2861,2022-09-22,48.38,1015,overcast clouds,3.98,236
 2862,2022-09-22,50.0,1024.0,Mist,2.2,10
+2863,2022-09-23,62.89,1015,clear sky,4,223
+2864,2022-09-23,55.9,1019.0,Partly cloudy,3.8,120
