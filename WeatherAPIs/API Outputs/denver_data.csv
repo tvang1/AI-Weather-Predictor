@@ -2880,3 +2880,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2879,2022-09-27,55.0,1027.0,Partly cloudy,8.1,230
 2880,2022-09-28,64.51,1027,clear sky,3.56,199
 2881,2022-09-28,55.9,1027.0,Partly cloudy,10.5,260
+2882,2022-09-29,68.05,1019,broken clouds,1.99,190
+2883,2022-09-29,66.0,1024.0,Partly cloudy,11.9,210
