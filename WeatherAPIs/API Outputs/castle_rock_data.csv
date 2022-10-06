@@ -2887,3 +2887,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2886,2022-10-04,51.1,1024.0,Partly cloudy,5.6,290
 2887,2022-10-05,48.47,1023,few clouds,4,286
 2888,2022-10-05,46.8,1027.0,Mist,3.8,270
+2889,2022-10-06,52.92,1031,clear sky,1.01,201
+2890,2022-10-06,44.4,1030.0,Partly cloudy,4.3,200

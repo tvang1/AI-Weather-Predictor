@@ -2894,3 +2894,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2893,2022-10-04,48.0,1024.0,Fog,5.6,10
 2894,2022-10-05,53.19,1024,scattered clouds,1.99,5
 2895,2022-10-05,48.0,1027.0,Partly cloudy,5.6,250
+2896,2022-10-06,55.31,1029,clear sky,1.01,208
+2897,2022-10-06,46.9,1030.0,Sunny,3.8,200
