@@ -2891,3 +2891,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2890,2022-10-06,44.4,1030.0,Partly cloudy,4.3,200
 2891,2022-10-07,42.55,1028,broken clouds,1.01,141
 2892,2022-10-07,42.8,1034.0,Overcast,4.3,170
+2893,2022-10-08,42.71,1031,clear sky,1.83,257
+2894,2022-10-08,43.0,1031.0,Overcast,3.8,160
