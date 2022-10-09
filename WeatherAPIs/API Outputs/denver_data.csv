@@ -2900,3 +2900,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2899,2022-10-07,39.9,1032.0,Mist,3.8,30
 2900,2022-10-08,46.9,1030,clear sky,1.99,182
 2901,2022-10-08,43.0,1031.0,Overcast,3.8,160
+2902,2022-10-09,54.43,1023,clear sky,0.6,257
+2903,2022-10-09,46.0,1026.0,Partly cloudy,8.1,240
