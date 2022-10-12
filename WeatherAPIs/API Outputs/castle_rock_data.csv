@@ -2899,3 +2899,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2898,2022-10-10,46.9,1022.0,Sunny,2.2,10
 2899,2022-10-11,58.5,1007,clear sky,5.01,236
 2900,2022-10-11,55.0,1014.0,Partly cloudy,8.1,220
+2901,2022-10-12,54.79,1015,clear sky,3,69
+2902,2022-10-12,51.8,1023.0,Sunny,11.9,220
