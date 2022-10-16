@@ -2907,3 +2907,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2906,2022-10-14,46.4,1017.0,Mist,2.2,10
 2907,2022-10-15,47.08,1021,haze,4,12
 2908,2022-10-15,51.8,1021.0,Partly cloudy,5.6,310
+2909,2022-10-16,39.72,1029,overcast clouds,1.01,56
+2910,2022-10-16,46.4,1029.0,Overcast,5.6,20
