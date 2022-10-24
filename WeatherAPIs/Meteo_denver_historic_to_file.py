@@ -24,7 +24,7 @@ headers = {
 
 # Be sure to change the dates for correct historical data.
 
-a_date = "2022-09-17&end=2022-09-18"
+a_date = "2022-10-22&end=2022-10-23"
 
 conn.request("GET", "/stations/daily?station=72565&start="+a_date, headers=headers)
 
