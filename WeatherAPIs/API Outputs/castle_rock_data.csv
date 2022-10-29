@@ -2929,3 +2929,7 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2928,2022-10-26,39.0,1015.0,Partly cloudy,8.1,180
 2929,2022-10-27,31.93,1013,snow,5.01,337
 2930,2022-10-27,33.1,1015.0,Patchy light snow,12.5,350
+2931,2022-10-28,34.65,1034,scattered clouds,1.01,213
+2932,2022-10-28,28.9,1026.0,Partly cloudy,8.1,200
+2933,2022-10-29,41.14,1028,clear sky,5.01,282
+2934,2022-10-29,32.0,1024.0,Partly cloudy,3.8,180
