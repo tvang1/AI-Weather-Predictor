@@ -24,7 +24,7 @@ headers = {
 
 # Be sure to change the dates for correct historical data.
 
-a_date = "2022-10-22&end=2022-10-23"
+a_date = "2022-11-12&end=2022-11-14"
 
 conn.request("GET", "/stations/daily?station=KBDU0&start="+a_date, headers=headers)
 
@@ -35,15 +35,16 @@ a_data= json.loads(a_json)
 
 lines_to_file = ""
 num_of_lines = 0
+line_placeholder = "####"
 
 for line in a_data['data']:
     num_of_lines +=1
 
 for i in range (num_of_lines):
     try:
-        lines_to_file += str(a_data['data'][i]['date'])+","+str( ( ((a_data['data'][i]['tavg'])*(9/5))+32) )+","+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
+        lines_to_file += str(str(line_placeholder)+","+a_data['data'][i]['date'])+","+str( ( ((a_data['data'][i]['tavg'])*(9/5))+32) )+","+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
     except:
-        lines_to_file += str(a_data['data'][i]['date'])+",None,"+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
+        lines_to_file += str(str(line_placeholder)+","+a_data['data'][i]['date'])+",None,"+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
     
 
 #print ("date,temperature,pressure,pattern,wind_speed,wind_degree")
