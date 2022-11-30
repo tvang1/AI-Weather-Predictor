@@ -2982,3 +2982,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2981,2022-11-28,44.1,1002.0,Partly cloudy,4.3,160
 2982,2022-11-29,18.36,1009,overcast clouds,3,51
 2983,2022-11-29,13.5,1007.0,Patchy light snow,6.9,40
+2984,2022-11-30,24.8,1023,clear sky,1.01,148
+2985,2022-11-30,16.0,1020.0,Partly cloudy,8.1,260
