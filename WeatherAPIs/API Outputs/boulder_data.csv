@@ -2986,3 +2986,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2985,2022-11-30,19.2,1021.0,Sunny,2.2,10
 2986,2022-12-01,32.29,1012,light rain,4,321
 2987,2022-12-01,32.9,1010.0,Sunny,3.8,170
+2988,2022-12-02,43.66,1005,scattered clouds,21,230
+2989,2022-12-02,54.5,1004.0,Overcast,13.6,240
