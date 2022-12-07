@@ -2990,3 +2990,9 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 2989,2022-12-02,52.0,1003.0,Partly cloudy,23.0,240
 2990,2022-12-03,40.15,1025,broken clouds,1.99,134
 2991,2022-12-03,39.0,1024.0,Partly cloudy,4.3,150
+2992,2022-12-04,41.05,1019,overcast clouds,1.25,306
+2993,2022-12-04,46.9,1017.0,Partly cloudy,3.8,90
+2994,2022-12-05,46.76,1007,scattered clouds,1.99,230
+2995,2022-12-05,39.9,1008.0,Partly cloudy,8.1,220
+2996,2022-12-06,37.09,1012,clear sky,1.01,20
+2997,2022-12-06,28.9,1012.0,Partly cloudy,11.9,230
