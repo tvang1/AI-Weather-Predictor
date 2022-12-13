@@ -3005,3 +3005,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3004,2022-12-11,59.0,1009.0,Partly cloudy,20.6,210
 3005,2022-12-12,49.91,996,overcast clouds,18.99,171
 3006,2022-12-12,50.0,997.0,Partly cloudy,8.1,160
+3007,2022-12-13,19.9,997,light snow,4,348
+3008,2022-12-13,19.9,1000.0,Overcast,4.3,320
