@@ -24,7 +24,7 @@ headers = {
 
 # Be sure to change the dates for correct historical data.
 
-a_date = "2022-12-22&end=2022-12-25"
+a_date = "2022-12-27&end=2023-01-07"
 
 conn.request("GET", "/stations/daily?station=72565&start="+a_date, headers=headers)
 
@@ -43,9 +43,10 @@ for line in a_data['data']:
 for i in range (num_of_lines):
     try:
         lines_to_file += str(str(line_placeholder)+","+a_data['data'][i]['date'])+","+str( ( ((a_data['data'][i]['tavg'])*(9/5))+32) )+","+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
+        print("Successful entries of "+a_date)
     except:
         lines_to_file += str(str(line_placeholder)+","+a_data['data'][i]['date'])+",None,"+str(a_data['data'][i]["pres"])+",None,"+str(a_data['data'][i]["wspd"])+","+str(a_data['data'][i]["wdir"])+"\n"
-    
+        print("Unsuccessful entries of "+a_date)
 
 #print ("date,temperature,pressure,pattern,wind_speed,wind_degree")
 
