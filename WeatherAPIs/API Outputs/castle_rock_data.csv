@@ -3059,3 +3059,7 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3058,2023-01-10,34.0,1009.0,Partly cloudy,8.1,190
 3059,2023-01-11,29.52,1001,snow,10,334
 3060,2023-01-11,30.9,1006.0,Freezing fog,18.6,350
+3061,2023-01-12,26.13,1032,clear sky,5.01,274
+3062,2023-01-12,18.0,1028.0,Partly cloudy,10.5,160
+3063,2023-01-13,36.03,1015,broken clouds,1.01,68
+3064,2023-01-13,25.0,1025.0,Partly cloudy,10.5,160
