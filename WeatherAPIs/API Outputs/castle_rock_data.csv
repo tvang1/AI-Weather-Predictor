@@ -3065,3 +3065,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3064,2023-01-13,25.0,1025.0,Partly cloudy,10.5,160
 3065,2023-01-13,49.08,1022,broken clouds,11.99,147
 3066,2023-01-13,46.0,1020.0,Partly cloudy,8.1,160
+3067,2023-01-14,45.01,1012,overcast clouds,10.31,212
+3068,2023-01-14,43.0,1012.0,Partly cloudy,12.5,210
