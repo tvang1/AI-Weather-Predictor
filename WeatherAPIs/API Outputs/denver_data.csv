@@ -3069,3 +3069,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3068,2023-01-14,55.4,1010.0,Sunny,8.1,190
 3069,2023-01-15,36.97,998,overcast clouds,1.01,221
 3070,2023-01-15,33.8,1000.0,Sunny,2.2,10
+3071,2023-01-16,34.79,1002,broken clouds,1.99,24
+3072,2023-01-16,32.0,1002.0,Sunny,3.8,330
