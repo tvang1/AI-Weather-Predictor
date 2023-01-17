@@ -3071,3 +3071,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3070,2023-01-15,33.8,1000.0,Sunny,2.2,10
 3071,2023-01-16,34.79,1002,broken clouds,1.99,24
 3072,2023-01-16,32.0,1002.0,Sunny,3.8,330
+3073,2023-01-17,31.06,1005,broken clouds,2.48,319
+3074,2023-01-17,32.0,1005.0,Sunny,2.2,10
