@@ -3077,3 +3077,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3076,2023-01-18,19.0,1014.0,Partly cloudy,8.1,170
 3077,2023-01-19,31.1,1012,moderate rain,4,215
 3078,2023-01-19,19.0,1014.0,Partly cloudy,8.1,170
+3079,2023-01-20,19.92,1018,overcast clouds,1.99,321
+3080,2023-01-20,21.2,1026.0,Mist,2.2,242
