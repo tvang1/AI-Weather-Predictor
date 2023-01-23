@@ -3070,3 +3070,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3069,2023-01-21,25.0,1019.0,Overcast,6.9,40
 3070,2023-01-22,22.57,1014,clear sky,6.91,280
 3071,2023-01-22,21.0,1012.0,Sunny,6.9,180
+3072,2023-01-23,21,1023,light snow,3.44,210
+3073,2023-01-23,28.4,1022.0,Patchy light snow,2.2,10

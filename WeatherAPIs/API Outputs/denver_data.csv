@@ -3083,3 +3083,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3082,2023-01-21,26.6,1019.0,Overcast,2.2,10
 3083,2023-01-22,26.82,1014,clear sky,3,205
 3084,2023-01-22,30.2,1011.0,Sunny,5.6,230
+3085,2023-01-23,27.03,1024,overcast clouds,1.01,200
+3086,2023-01-23,28.4,1021.0,Light snow,2.2,10
