@@ -3109,3 +3109,7 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3108,2023-02-04,42.1,1018.0,Partly cloudy,16.1,300
 3109,2023-02-05,37.58,1016,overcast clouds,4,343
 3110,2023-02-05,32.0,1017.0,Partly cloudy,4.3,260
+3111,2023-02-10,26.37,1019,clear sky,4,118
+3112,2023-02-10,17.1,1027.0,Sunny,9.4,200
+3113,2023-02-11,43.05,1015,clear sky,1.99,234
+3114,2023-02-11,39.0,1019.0,Partly cloudy,13.6,220
