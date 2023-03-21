@@ -3137,3 +3137,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3136,2023-03-17,20.1,1021.0,Partly cloudy,5.6,160
 3137,2023-03-20,38.82,1006,overcast clouds,1.99,294
 3138,2023-03-20,35.2,1008.0,Overcast,12.5,130
+3139,2023-03-21,50.34,1005,overcast clouds,5.01,149
+3140,2023-03-21,44.4,1007.0,Partly cloudy,9.4,260
