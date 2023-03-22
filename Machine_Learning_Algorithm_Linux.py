@@ -19,7 +19,7 @@ df = pd.read_csv(r"/mnt/d/GitRepositories/Simple-Weather-Predictor/WeatherAPIs/A
 #df = pd.read_csv(r"/mnt/d/GitRepositories/Simple-Weather-Predictor/WeatherAPIs/API Outputs/denver_data.csv")
 #df = pd.read_csv(r"/mnt/d/GitRepositories/Simple-Weather-Predictor/WeatherAPIs/API Outputs/boulder_data.csv")
 
-df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=True)
+df.dropna(axis=0, how='any', subset=None, inplace=True)
 
 # X represents the features that will be compared to the y.
 # X values will try to predict according to values in y and 
