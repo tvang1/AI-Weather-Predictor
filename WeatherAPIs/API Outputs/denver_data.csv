@@ -3159,3 +3159,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3158,2023-03-22,38.3,1009.0,Partly cloudy,12.5,330
 3159,2023-03-22,37.33,1009,few clouds,4,26
 3160,2023-03-22,38.3,1009.0,Partly cloudy,12.5,330
+3161,2023-03-23,41.05,1013,clear sky,4,27
+3162,2023-03-23,35.6,1013.0,Partly cloudy,13.6,210
