@@ -3130,3 +3130,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3129,2023-03-22,32.0,1010.0,Light snow,8.1,350
 3130,2023-03-22,27.7,1010,snow,9.22,330
 3131,2023-03-22,32.0,1010.0,Light snow,9.4,330
+3132,2023-03-22,29.68,1009,light rain,0,0
+3133,2023-03-22,33.8,1010.0,Partly cloudy,2.2,10

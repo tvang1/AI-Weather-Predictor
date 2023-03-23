@@ -3143,3 +3143,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3142,2023-03-22,34.5,1008.0,Partly cloudy,5.6,300
 3143,2023-03-22,37.81,1007,broken clouds,7,346
 3144,2023-03-22,34.7,1008.0,Partly cloudy,9.4,350
+3145,2023-03-22,39.6,1009,scattered clouds,5.99,346
+3146,2023-03-22,38.3,1009.0,Partly cloudy,12.5,330
