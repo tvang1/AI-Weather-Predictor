@@ -35,27 +35,27 @@ def get_open_weather(api,date,city,state):
         if (city=="castle+rock" and state=="colorado"):
             curr_line = get_lines("cr")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['main']['temp'])+","+str(a_dict['main']['pressure'])+","+str(a_dict['weather'][0]['description'])+","+str(a_dict['wind']['speed'])+","+str(a_dict['wind']['deg']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
         elif (city=="denver" and state=="colorado"):
             curr_line = get_lines("dv")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['main']['temp'])+","+str(a_dict['main']['pressure'])+","+str(a_dict['weather'][0]['description'])+","+str(a_dict['wind']['speed'])+","+str(a_dict['wind']['deg']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
         elif (city=="boulder" and state=="colorado"):
             curr_line = get_lines("bd")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['main']['temp'])+","+str(a_dict['main']['pressure'])+","+str(a_dict['weather'][0]['description'])+","+str(a_dict['wind']['speed'])+","+str(a_dict['wind']['deg']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
     except:
         print ("An error log was saved to the API Outputs directory.")
-        with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/error_log.csv","w+") as file1:
+        with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/error_log.csv","w+") as file1:
             file1.write(sys.sys.exc_info())
 
 # WeatherAPI stores the results to 'a_dict' in JSon format
@@ -78,21 +78,21 @@ def get_weather_api(api, date, zip):
         if (zip=="80108"):
             curr_line = get_lines("cr")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['current']['temp_f'])+","+str(a_dict['current']['pressure_mb'])+","+str(a_dict['current']['condition']['text'])+","+str(a_dict['current']['wind_mph'])+","+str(a_dict['current']['wind_degree']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
         elif (zip=="80249"):
             curr_line = get_lines("dv")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['current']['temp_f'])+","+str(a_dict['current']['pressure_mb'])+","+str(a_dict['current']['condition']['text'])+","+str(a_dict['current']['wind_mph'])+","+str(a_dict['current']['wind_degree']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv","a+") as file1:
                 file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
             
         elif (zip=="80304"):
             curr_line = get_lines("bd")
             lines_to_file = ( str(curr_line)+","+str(date)+","+str(a_dict['current']['temp_f'])+","+str(a_dict['current']['pressure_mb'])+","+str(a_dict['current']['condition']['text'])+","+str(a_dict['current']['wind_mph'])+","+str(a_dict['current']['wind_degree']) )
-            with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv","a+") as file1:
+            with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv","a+") as file1:
               file1.write(str(lines_to_file)+"\n")
             print ("Added to file successfully.")
 
@@ -105,15 +105,15 @@ def get_weather_api(api, date, zip):
 # #
 def get_lines(name):
     if (name == "cr"):
-        with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv", 'r') as fp:
+        with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/castle_rock_data.csv", 'r') as fp:
             num_lines = sum(1 for line in fp if line.rstrip())
             return num_lines
     elif (name == "dv"):
-        with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv", 'r') as fp:
+        with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/denver_data.csv", 'r') as fp:
             num_lines = sum(1 for line in fp if line.rstrip())
             return num_lines
     elif (name == "bd"):
-        with open(r"/home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv", 'r') as fp:
+        with open(r"home/tvang/gitRepositories/AI-WeatherPredictor/WeatherAPIs/API Outputs/boulder_data.csv", 'r') as fp:
             num_lines = sum(1 for line in fp if line.rstrip())
             return num_lines
 
