@@ -3156,3 +3156,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3155,2023-03-26,32.0,1014.0,Sunny,4.3,20
 3156,2023-03-27,18.05,1020,overcast clouds,14,0
 3157,2023-03-27,26.6,1018.0,Overcast,6.9,360
+3158,2023-03-28,22.35,1028,clear sky,4,343
+3159,2023-03-28,23.0,1025.0,Sunny,2.2,10
