@@ -3179,3 +3179,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3178,2023-03-31,47.7,1005.0,Partly cloudy,23.0,300
 3179,2023-04-21,37.89,1019,overcast clouds,3,247
 3180,2023-04-21,33.1,1020.0,Partly cloudy,8.1,220
+3181,2023-04-22,26.62,1023,overcast clouds,1.99,69
+3182,2023-04-22,22.6,1022.0,Patchy light snow,8.1,80

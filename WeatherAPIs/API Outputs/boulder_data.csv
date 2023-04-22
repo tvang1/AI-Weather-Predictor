@@ -3166,3 +3166,5 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3165,2023-03-31,46.4,1002.0,Sunny,48.5,270
 3166,2023-04-21,31.48,1021,clear sky,23,0
 3167,2023-04-21,37.4,1019.0,Sunny,3.8,150
+3168,2023-04-22,19.98,1025,overcast clouds,3.44,40
+3169,2023-04-22,26.6,1023.0,Light snow,3.8,40
