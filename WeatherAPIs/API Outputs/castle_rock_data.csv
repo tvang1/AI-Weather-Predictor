@@ -3181,3 +3181,7 @@ id,date,temperature,pressure,pattern,wind_speed,wind_degree
 3180,2023-04-21,34.0,1020.0,Partly cloudy,8.1,250
 3181,2023-04-22,24.08,1018,light snow,5.99,83
 3182,2023-04-22,21.9,1022.0,Patchy light snow,8.1,110
+3183,2023-04-23,35.08,1014,clear sky,3,76
+3184,2023-04-23,28.4,1019.0,Sunny,8.1,190
+3185,2023-04-24,44.73,1008,overcast clouds,5.01,276
+3186,2023-04-24,41.0,1013.0,Partly cloudy,5.6,250
